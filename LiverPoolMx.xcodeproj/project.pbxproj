@@ -15,8 +15,8 @@
 		200448141F28943E00CFB6A9 /* LiverPoolMxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200448131F28943E00CFB6A9 /* LiverPoolMxTests.swift */; };
 		2004481F1F28943E00CFB6A9 /* LiverPoolMxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004481E1F28943E00CFB6A9 /* LiverPoolMxUITests.swift */; };
 		672477FABE2BB0F278EF1924 /* Pods_LiverPoolMxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2FECCA923CB431D852B70F /* Pods_LiverPoolMxUITests.framework */; };
+		68F522D75E638BD4BDD4AFC5 /* Pods_LiverPoolMx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2A4F5CEE5765579565F00C /* Pods_LiverPoolMx.framework */; };
 		9C7AA983A8F39B1B9EE10EE9 /* Pods_LiverPoolMxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09B242943ACA3EA0D23EF53 /* Pods_LiverPoolMxTests.framework */; };
-		D568AFFC564EC20EC51FB64A /* Pods_LiverPoolMx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2A4F5CEE5765579565F00C /* Pods_LiverPoolMx.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D568AFFC564EC20EC51FB64A /* Pods_LiverPoolMx.framework in Frameworks */,
+				68F522D75E638BD4BDD4AFC5 /* Pods_LiverPoolMx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,9 +597,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB5F17E7B1010DE3824608E0 /* Pods-LiverPoolMx.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LiverPoolMx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = squareweb.LiverPoolMx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -610,9 +614,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C06110FC7EDA1FD52FD0AFBB /* Pods-LiverPoolMx.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = LiverPoolMx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = squareweb.LiverPoolMx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -696,6 +704,7 @@
 				200448251F28943E00CFB6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		200448261F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMxTests" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +713,7 @@
 				200448281F28943E00CFB6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		200448291F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMxUITests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +722,7 @@
 				2004482B1F28943E00CFB6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
