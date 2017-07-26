@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200447FF1F28943D00CFB6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200447FE1F28943D00CFB6A9 /* AppDelegate.swift */; };
+		200448011F28943D00CFB6A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200448001F28943D00CFB6A9 /* ViewController.swift */; };
+		200448041F28943D00CFB6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200448021F28943D00CFB6A9 /* Main.storyboard */; };
+		200448061F28943D00CFB6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200448051F28943D00CFB6A9 /* Assets.xcassets */; };
+		200448091F28943D00CFB6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200448071F28943D00CFB6A9 /* LaunchScreen.storyboard */; };
+		200448141F28943E00CFB6A9 /* LiverPoolMxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200448131F28943E00CFB6A9 /* LiverPoolMxTests.swift */; };
+		2004481F1F28943E00CFB6A9 /* LiverPoolMxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004481E1F28943E00CFB6A9 /* LiverPoolMxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		200448101F28943E00CFB6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200447F31F28943D00CFB6A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200447FA1F28943D00CFB6A9;
+			remoteInfo = LiverPoolMx;
+		};
+		2004481B1F28943E00CFB6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200447F31F28943D00CFB6A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200447FA1F28943D00CFB6A9;
+			remoteInfo = LiverPoolMx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200447FB1F28943D00CFB6A9 /* LiverPoolMx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiverPoolMx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200447FE1F28943D00CFB6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		200448001F28943D00CFB6A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		200448031F28943D00CFB6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		200448051F28943D00CFB6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		200448081F28943D00CFB6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2004480A1F28943E00CFB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2004480F1F28943E00CFB6A9 /* LiverPoolMxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiverPoolMxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200448131F28943E00CFB6A9 /* LiverPoolMxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiverPoolMxTests.swift; sourceTree = "<group>"; };
+		200448151F28943E00CFB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2004481A1F28943E00CFB6A9 /* LiverPoolMxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiverPoolMxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2004481E1F28943E00CFB6A9 /* LiverPoolMxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiverPoolMxUITests.swift; sourceTree = "<group>"; };
+		200448201F28943E00CFB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		200447F81F28943D00CFB6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2004480C1F28943E00CFB6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200448171F28943E00CFB6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200447F21F28943D00CFB6A9 = {
+			isa = PBXGroup;
+			children = (
+				200447FD1F28943D00CFB6A9 /* LiverPoolMx */,
+				200448121F28943E00CFB6A9 /* LiverPoolMxTests */,
+				2004481D1F28943E00CFB6A9 /* LiverPoolMxUITests */,
+				200447FC1F28943D00CFB6A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200447FC1F28943D00CFB6A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200447FB1F28943D00CFB6A9 /* LiverPoolMx.app */,
+				2004480F1F28943E00CFB6A9 /* LiverPoolMxTests.xctest */,
+				2004481A1F28943E00CFB6A9 /* LiverPoolMxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200447FD1F28943D00CFB6A9 /* LiverPoolMx */ = {
+			isa = PBXGroup;
+			children = (
+				200447FE1F28943D00CFB6A9 /* AppDelegate.swift */,
+				200448001F28943D00CFB6A9 /* ViewController.swift */,
+				200448021F28943D00CFB6A9 /* Main.storyboard */,
+				200448051F28943D00CFB6A9 /* Assets.xcassets */,
+				200448071F28943D00CFB6A9 /* LaunchScreen.storyboard */,
+				2004480A1F28943E00CFB6A9 /* Info.plist */,
+			);
+			path = LiverPoolMx;
+			sourceTree = "<group>";
+		};
+		200448121F28943E00CFB6A9 /* LiverPoolMxTests */ = {
+			isa = PBXGroup;
+			children = (
+				200448131F28943E00CFB6A9 /* LiverPoolMxTests.swift */,
+				200448151F28943E00CFB6A9 /* Info.plist */,
+			);
+			path = LiverPoolMxTests;
+			sourceTree = "<group>";
+		};
+		2004481D1F28943E00CFB6A9 /* LiverPoolMxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2004481E1F28943E00CFB6A9 /* LiverPoolMxUITests.swift */,
+				200448201F28943E00CFB6A9 /* Info.plist */,
+			);
+			path = LiverPoolMxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200447FA1F28943D00CFB6A9 /* LiverPoolMx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200448231F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMx" */;
+			buildPhases = (
+				200447F71F28943D00CFB6A9 /* Sources */,
+				200447F81F28943D00CFB6A9 /* Frameworks */,
+				200447F91F28943D00CFB6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiverPoolMx;
+			productName = LiverPoolMx;
+			productReference = 200447FB1F28943D00CFB6A9 /* LiverPoolMx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2004480E1F28943E00CFB6A9 /* LiverPoolMxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200448261F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMxTests" */;
+			buildPhases = (
+				2004480B1F28943E00CFB6A9 /* Sources */,
+				2004480C1F28943E00CFB6A9 /* Frameworks */,
+				2004480D1F28943E00CFB6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				200448111F28943E00CFB6A9 /* PBXTargetDependency */,
+			);
+			name = LiverPoolMxTests;
+			productName = LiverPoolMxTests;
+			productReference = 2004480F1F28943E00CFB6A9 /* LiverPoolMxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		200448191F28943E00CFB6A9 /* LiverPoolMxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200448291F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMxUITests" */;
+			buildPhases = (
+				200448161F28943E00CFB6A9 /* Sources */,
+				200448171F28943E00CFB6A9 /* Frameworks */,
+				200448181F28943E00CFB6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2004481C1F28943E00CFB6A9 /* PBXTargetDependency */,
+			);
+			name = LiverPoolMxUITests;
+			productName = LiverPoolMxUITests;
+			productReference = 2004481A1F28943E00CFB6A9 /* LiverPoolMxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		200447F31F28943D00CFB6A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Development Operator";
+				TargetAttributes = {
+					200447FA1F28943D00CFB6A9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2004480E1F28943E00CFB6A9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 200447FA1F28943D00CFB6A9;
+					};
+					200448191F28943E00CFB6A9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 200447FA1F28943D00CFB6A9;
+					};
+				};
+			};
+			buildConfigurationList = 200447F61F28943D00CFB6A9 /* Build configuration list for PBXProject "LiverPoolMx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 200447F21F28943D00CFB6A9;
+			productRefGroup = 200447FC1F28943D00CFB6A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				200447FA1F28943D00CFB6A9 /* LiverPoolMx */,
+				2004480E1F28943E00CFB6A9 /* LiverPoolMxTests */,
+				200448191F28943E00CFB6A9 /* LiverPoolMxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		200447F91F28943D00CFB6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200448091F28943D00CFB6A9 /* LaunchScreen.storyboard in Resources */,
+				200448061F28943D00CFB6A9 /* Assets.xcassets in Resources */,
+				200448041F28943D00CFB6A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2004480D1F28943E00CFB6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200448181F28943E00CFB6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200447F71F28943D00CFB6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200448011F28943D00CFB6A9 /* ViewController.swift in Sources */,
+				200447FF1F28943D00CFB6A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2004480B1F28943E00CFB6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200448141F28943E00CFB6A9 /* LiverPoolMxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200448161F28943E00CFB6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2004481F1F28943E00CFB6A9 /* LiverPoolMxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		200448111F28943E00CFB6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200447FA1F28943D00CFB6A9 /* LiverPoolMx */;
+			targetProxy = 200448101F28943E00CFB6A9 /* PBXContainerItemProxy */;
+		};
+		2004481C1F28943E00CFB6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200447FA1F28943D00CFB6A9 /* LiverPoolMx */;
+			targetProxy = 2004481B1F28943E00CFB6A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		200448021F28943D00CFB6A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200448031F28943D00CFB6A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		200448071F28943D00CFB6A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200448081F28943D00CFB6A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		200448211F28943E00CFB6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		200448221F28943E00CFB6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		200448241F28943E00CFB6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiverPoolMx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = squareweb.LiverPoolMx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		200448251F28943E00CFB6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiverPoolMx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = squareweb.LiverPoolMx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		200448271F28943E00CFB6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiverPoolMxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = squareweb.LiverPoolMxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiverPoolMx.app/LiverPoolMx";
+			};
+			name = Debug;
+		};
+		200448281F28943E00CFB6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiverPoolMxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = squareweb.LiverPoolMxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiverPoolMx.app/LiverPoolMx";
+			};
+			name = Release;
+		};
+		2004482A1F28943E00CFB6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LiverPoolMxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = squareweb.LiverPoolMxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LiverPoolMx;
+			};
+			name = Debug;
+		};
+		2004482B1F28943E00CFB6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LiverPoolMxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = squareweb.LiverPoolMxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LiverPoolMx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200447F61F28943D00CFB6A9 /* Build configuration list for PBXProject "LiverPoolMx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200448211F28943E00CFB6A9 /* Debug */,
+				200448221F28943E00CFB6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200448231F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200448241F28943E00CFB6A9 /* Debug */,
+				200448251F28943E00CFB6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		200448261F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200448271F28943E00CFB6A9 /* Debug */,
+				200448281F28943E00CFB6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		200448291F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2004482A1F28943E00CFB6A9 /* Debug */,
+				2004482B1F28943E00CFB6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 200447F31F28943D00CFB6A9 /* Project object */;
+}
