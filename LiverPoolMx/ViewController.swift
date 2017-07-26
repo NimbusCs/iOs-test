@@ -7,15 +7,40 @@
 //
 
 import UIKit
-/*import Alamofire
-import SwiftyJSON*/
+import Alamofire
+import SwiftyJSON
+import AlamofireImage
+import RealmSwift
 
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UISearchBarDelegate, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var historybtn: UIBarButtonItem!
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    @IBAction func historyBtnAc(_ sender: UIBarButtonItem) {
+        
+        
+    }
+    let cellReuseIdentifier = "Cell"
+    
+    var proTitle = [String]()
+    var proPrice = [String]()
+    var proLoc   = [String]()
+    var proImg   = [String]()
+    
+    var numRows: Int = 0
+    
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        super.viewDidLoad()        
+        searchBar.delegate = self
+        tableView.delegate = self
+        tableView.dataSource = self
+        self.tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {

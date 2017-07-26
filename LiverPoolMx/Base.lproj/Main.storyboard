@@ -31,7 +31,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="iI0-gZ-SXq">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="iI0-gZ-SXq">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iI0-gZ-SXq" id="8i4-rL-Taj">
@@ -47,10 +47,16 @@
                     <navigationItem key="navigationItem" title="LiverPool" id="Oq6-64-4C6">
                         <barButtonItem key="rightBarButtonItem" title="Historial" id="0Rt-E9-r78">
                             <connections>
+                                <action selector="historyBtnAc:" destination="BYZ-38-t0r" id="49J-DF-PQ8"/>
                                 <segue destination="3qB-gx-St9" kind="presentation" id="oMX-hy-soY"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="historybtn" destination="0Rt-E9-r78" id="7Yu-2n-5Is"/>
+                        <outlet property="searchBar" destination="Lv0-fc-cYj" id="ABh-GD-3x3"/>
+                        <outlet property="tableView" destination="qSz-Zz-hvZ" id="0yb-ps-dlT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
