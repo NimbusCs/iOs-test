@@ -141,7 +141,11 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Historial" id="dMo-L0-H9i">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="3hI-Jy-W4S"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="3hI-Jy-W4S">
+                            <connections>
+                                <action selector="doneBtn:" destination="PbO-c6-4gl" id="fFi-w9-JWY"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
