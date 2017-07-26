@@ -14,6 +14,9 @@
 		200448091F28943D00CFB6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200448071F28943D00CFB6A9 /* LaunchScreen.storyboard */; };
 		200448141F28943E00CFB6A9 /* LiverPoolMxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200448131F28943E00CFB6A9 /* LiverPoolMxTests.swift */; };
 		2004481F1F28943E00CFB6A9 /* LiverPoolMxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004481E1F28943E00CFB6A9 /* LiverPoolMxUITests.swift */; };
+		672477FABE2BB0F278EF1924 /* Pods_LiverPoolMxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2FECCA923CB431D852B70F /* Pods_LiverPoolMxUITests.framework */; };
+		9C7AA983A8F39B1B9EE10EE9 /* Pods_LiverPoolMxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09B242943ACA3EA0D23EF53 /* Pods_LiverPoolMxTests.framework */; };
+		D568AFFC564EC20EC51FB64A /* Pods_LiverPoolMx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2A4F5CEE5765579565F00C /* Pods_LiverPoolMx.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		054BB84822DCF4746E8CE3CC /* Pods-LiverPoolMxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiverPoolMxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiverPoolMxUITests/Pods-LiverPoolMxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0642D389D52D52ED021F3D50 /* Pods-LiverPoolMxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiverPoolMxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiverPoolMxTests/Pods-LiverPoolMxTests.release.xcconfig"; sourceTree = "<group>"; };
+		18EE9D089AA99DF3D99C458D /* Pods-LiverPoolMxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiverPoolMxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiverPoolMxUITests/Pods-LiverPoolMxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E2A4F5CEE5765579565F00C /* Pods_LiverPoolMx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiverPoolMx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		200447FB1F28943D00CFB6A9 /* LiverPoolMx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiverPoolMx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		200447FE1F28943D00CFB6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		200448001F28943D00CFB6A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		2004481A1F28943E00CFB6A9 /* LiverPoolMxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiverPoolMxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2004481E1F28943E00CFB6A9 /* LiverPoolMxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiverPoolMxUITests.swift; sourceTree = "<group>"; };
 		200448201F28943E00CFB6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D474EF7AF9260DEFC10B28 /* Pods-LiverPoolMxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiverPoolMxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiverPoolMxTests/Pods-LiverPoolMxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B2FECCA923CB431D852B70F /* Pods_LiverPoolMxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiverPoolMxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5F17E7B1010DE3824608E0 /* Pods-LiverPoolMx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiverPoolMx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiverPoolMx/Pods-LiverPoolMx.debug.xcconfig"; sourceTree = "<group>"; };
+		C06110FC7EDA1FD52FD0AFBB /* Pods-LiverPoolMx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiverPoolMx.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiverPoolMx/Pods-LiverPoolMx.release.xcconfig"; sourceTree = "<group>"; };
+		E09B242943ACA3EA0D23EF53 /* Pods_LiverPoolMxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiverPoolMxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D568AFFC564EC20EC51FB64A /* Pods_LiverPoolMx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7AA983A8F39B1B9EE10EE9 /* Pods_LiverPoolMxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672477FABE2BB0F278EF1924 /* Pods_LiverPoolMxUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				200448121F28943E00CFB6A9 /* LiverPoolMxTests */,
 				2004481D1F28943E00CFB6A9 /* LiverPoolMxUITests */,
 				200447FC1F28943D00CFB6A9 /* Products */,
+				64AA6F513A03C30DB4AE1B3B /* Pods */,
+				5AC92148DF794BDD3C68DD3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = LiverPoolMxUITests;
 			sourceTree = "<group>";
 		};
+		5AC92148DF794BDD3C68DD3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E2A4F5CEE5765579565F00C /* Pods_LiverPoolMx.framework */,
+				E09B242943ACA3EA0D23EF53 /* Pods_LiverPoolMxTests.framework */,
+				6B2FECCA923CB431D852B70F /* Pods_LiverPoolMxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64AA6F513A03C30DB4AE1B3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB5F17E7B1010DE3824608E0 /* Pods-LiverPoolMx.debug.xcconfig */,
+				C06110FC7EDA1FD52FD0AFBB /* Pods-LiverPoolMx.release.xcconfig */,
+				42D474EF7AF9260DEFC10B28 /* Pods-LiverPoolMxTests.debug.xcconfig */,
+				0642D389D52D52ED021F3D50 /* Pods-LiverPoolMxTests.release.xcconfig */,
+				18EE9D089AA99DF3D99C458D /* Pods-LiverPoolMxUITests.debug.xcconfig */,
+				054BB84822DCF4746E8CE3CC /* Pods-LiverPoolMxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 200448231F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMx" */;
 			buildPhases = (
+				887EDF8FCE28C7747AE63BAD /* [CP] Check Pods Manifest.lock */,
 				200447F71F28943D00CFB6A9 /* Sources */,
 				200447F81F28943D00CFB6A9 /* Frameworks */,
 				200447F91F28943D00CFB6A9 /* Resources */,
+				D29CC0FAB22437D68006C1D4 /* [CP] Embed Pods Frameworks */,
+				401A2B4E8569E75983BEFB37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 200448261F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMxTests" */;
 			buildPhases = (
+				8FE385F657E4F106B5E6829E /* [CP] Check Pods Manifest.lock */,
 				2004480B1F28943E00CFB6A9 /* Sources */,
 				2004480C1F28943E00CFB6A9 /* Frameworks */,
 				2004480D1F28943E00CFB6A9 /* Resources */,
+				B0EAB13A035B4053DFBDE3F7 /* [CP] Embed Pods Frameworks */,
+				0D15B6FED201FBD000204B9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 200448291F28943E00CFB6A9 /* Build configuration list for PBXNativeTarget "LiverPoolMxUITests" */;
 			buildPhases = (
+				5C57D9AFA6FFC27BA1644122 /* [CP] Check Pods Manifest.lock */,
 				200448161F28943E00CFB6A9 /* Sources */,
 				200448171F28943E00CFB6A9 /* Frameworks */,
 				200448181F28943E00CFB6A9 /* Resources */,
+				86866F4C6FE7C95BCE50E780 /* [CP] Embed Pods Frameworks */,
+				BC01D832BC57CC8D680641B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D15B6FED201FBD000204B9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiverPoolMxTests/Pods-LiverPoolMxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		401A2B4E8569E75983BEFB37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiverPoolMx/Pods-LiverPoolMx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C57D9AFA6FFC27BA1644122 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86866F4C6FE7C95BCE50E780 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiverPoolMxUITests/Pods-LiverPoolMxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		887EDF8FCE28C7747AE63BAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE385F657E4F106B5E6829E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0EAB13A035B4053DFBDE3F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiverPoolMxTests/Pods-LiverPoolMxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC01D832BC57CC8D680641B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiverPoolMxUITests/Pods-LiverPoolMxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D29CC0FAB22437D68006C1D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiverPoolMx/Pods-LiverPoolMx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		200447F71F28943D00CFB6A9 /* Sources */ = {
@@ -408,6 +595,7 @@
 		};
 		200448241F28943E00CFB6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5F17E7B1010DE3824608E0 /* Pods-LiverPoolMx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiverPoolMx/Info.plist;
@@ -420,6 +608,7 @@
 		};
 		200448251F28943E00CFB6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06110FC7EDA1FD52FD0AFBB /* Pods-LiverPoolMx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiverPoolMx/Info.plist;
@@ -432,6 +621,7 @@
 		};
 		200448271F28943E00CFB6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D474EF7AF9260DEFC10B28 /* Pods-LiverPoolMxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +636,7 @@
 		};
 		200448281F28943E00CFB6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0642D389D52D52ED021F3D50 /* Pods-LiverPoolMxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +651,7 @@
 		};
 		2004482A1F28943E00CFB6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EE9D089AA99DF3D99C458D /* Pods-LiverPoolMxUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LiverPoolMxUITests/Info.plist;
@@ -473,6 +665,7 @@
 		};
 		2004482B1F28943E00CFB6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054BB84822DCF4746E8CE3CC /* Pods-LiverPoolMxUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LiverPoolMxUITests/Info.plist;
